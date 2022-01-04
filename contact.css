@@ -1,0 +1,44 @@
+
+*,*:before,*:after
+{
+box-sizing: border-box;
+}
+.container
+{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.shops-wrapper
+{
+    width: 48%;
+}
+.map-wrapper
+{
+    width: 48%;
+}
+
+.map-wrapper iframe{
+    width: 100%;
+}
+.shops-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.shop
+{
+    width: calc(50% - 7.5px);
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .1);
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
