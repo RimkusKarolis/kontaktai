@@ -42,3 +42,20 @@ box-sizing: border-box;
     margin-bottom: 15px;
 
 }
+
+.shop ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+.shop ul li
+{
+    font-weight: 700;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.shop ul li a
+{
+    font-weight: 400;
+}
